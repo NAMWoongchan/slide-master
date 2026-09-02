@@ -16,6 +16,8 @@
 # 将受支持的 SVG 元素转换为可编辑的原生 DrawingML 形状
 python-pptx>=0.6.21
 XlsxWriter>=3.0.0
+# Required by register_template.py to validate YAML frontmatter in brand specs.
+PyYAML>=6.0
 
 # Recorded narration / 录制计时和旁白
 # notes_to_audio.py generates per-slide narration audio on macOS/Linux/Windows.

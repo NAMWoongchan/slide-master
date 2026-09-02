@@ -1,11 +1,11 @@
-# Slide Master — 문서를 넣으면, PowerPoint에서 진짜 편집되는 PPT가 나옵니다
+# PMOffice Slide Master — 문서를 넣으면, PowerPoint에서 진짜 편집되는 PPT가 나옵니다
 
 [![Output](https://img.shields.io/badge/output-native%20PPTX%20(DrawingML)-217346)](#faq)
 [![Font](https://img.shields.io/badge/font-Pretendard-0b1f3a)](#한글-폰트--pretendard-고정)
 [![Canvas](https://img.shields.io/badge/canvas-16%3A9%20기본%20%C2%B7%20세로형%C2%B7SNS%20포맷%20지원-4633E3)](.claude/skills/ppt-master/references/canvas-formats.md)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
 
-> 이 저장소는 [hugohe3/ppt-master](https://github.com/hugohe3/ppt-master)(MIT)를 기반으로 한 **장피엠 커스터마이즈 워크스페이스**입니다. 한국어 덱 제작에 맞춰 작업 절차 커스터마이징, 완료 PPTX 검증 워크플로우) 등이 조정·추가되어 있습니다. 원 프로젝트의 라이선스와 저작권 고지는 그대로 유지합니다.
+> 이 저장소는 [byungjunjang/slide-master](https://github.com/byungjunjang/slide-master)의 **PMOffice 배포판(Fork)** 입니다. 그 기반 프로젝트는 [hugohe3/ppt-master](https://github.com/hugohe3/ppt-master)(MIT)입니다. PMOffice가 새로 작성한 문서·템플릿·예제·브랜드 자산·수정 사항의 저작권만 별도로 표시하며, 원 프로젝트의 라이선스와 저작권 고지는 그대로 유지합니다. 자세한 범위는 [`NOTICE.md`](NOTICE.md)와 [`docs/PMOFFICE_COPYRIGHT.md`](docs/PMOFFICE_COPYRIGHT.md)를 참고하십시오.
 
 ---
 
@@ -86,7 +86,7 @@ projects/<프로젝트>/svg_final/                        ← 브라우저로 �
 **3단계 — 저장소 받기 + 의존성 설치**
 
 ```bash
-git clone https://github.com/byungjunjang/slide-master.git
+git clone https://github.com/NAMWoongchan/slide-master.git
 cd slide-master
 pip install -r requirements.txt
 ```
@@ -215,6 +215,8 @@ sources/회사표준템플릿.pptx 디자인 그대로 쓰고,
 | 🏗️ | [Technical Design](docs/technical-design.md) | 아키텍처, 왜 SVG를 거치는가 |
 | 🎨 | [Templates Guide](docs/templates-guide.md) | 브랜드/레이아웃/덱 템플릿 만들고 쓰기 |
 | 🔊 | [Audio Narration](docs/audio-narration.md) | 음성 나레이션·자동 넘김 덱 만들기 |
+| 🧭 | [PMOffice Quick Start](docs/PMOFFICE_QUICKSTART.md) | PMOffice Fork 설치·첫 편집 가능 PPTX 확인 |
+| 📦 | [PMOffice Distribution](docs/PMOFFICE_DISTRIBUTION.md) | Fork·검토·공개·업스트림 동기화 절차 |
 | 📖 | [SKILL.md](.claude/skills/ppt-master/SKILL.md) | 핵심 워크플로우 규칙 (AI가 따르는 절차 원문) |
 
 ---
@@ -230,7 +232,7 @@ sources/회사표준템플릿.pptx 디자인 그대로 쓰고,
 
 ## 라이선스
 
-[MIT](LICENSE). 이 저장소는 [hugohe3/ppt-master](https://github.com/hugohe3/ppt-master) (MIT, Copyright © Hugo He)의 포크이며, 원 프로젝트의 라이선스 전문과 저작권 고지를 유지합니다. 아이콘·폰트 등 번들 자산은 각자의 라이선스(SIL OFL 등)를 따릅니다.
+[MIT](LICENSE). 이 저장소는 [byungjunjang/slide-master](https://github.com/byungjunjang/slide-master)의 PMOffice Fork이며, 그 기반 프로젝트는 [hugohe3/ppt-master](https://github.com/hugohe3/ppt-master) (MIT, Copyright © Hugo He)입니다. 원 프로젝트의 라이선스 전문과 저작권 고지를 유지합니다. PMOffice 저작권은 이 Fork에 새로 추가·수정한 부분에만 적용됩니다. 아이콘·폰트 등 번들 자산은 각자의 라이선스(SIL OFL 등)를 따릅니다.
 
 외부 저장소에서 가져와 개작한 스킬은 각 디렉토리에 업스트림 라이선스 전문을 동봉합니다.
 

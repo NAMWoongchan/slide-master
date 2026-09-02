@@ -2,7 +2,7 @@
 
 All notable PMOffice distribution changes are documented in this file.
 
-## [1.0.0] - 2026-09-02
+## [Unreleased]
 
 ### Added
 
@@ -14,3 +14,6 @@ All notable PMOffice distribution changes are documented in this file.
 - The PMOffice Brand Preset at
   `.claude/skills/ppt-master/templates/brands/pmoffice/` and its registered
   `pmoffice` discovery entry.
+
+> Note: `v1.0.0` is not released. Create its tag only after the approved
+> `main` commit is published.
